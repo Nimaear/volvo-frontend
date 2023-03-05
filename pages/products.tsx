@@ -13,7 +13,7 @@ renderer.renderStatic(
   'body'
 );
 
-function HomePage () {
+function Products () {
   return (
     <React.StrictMode>
       <StyleProvider renderer={renderer}>
@@ -25,4 +25,4 @@ function HomePage () {
   );
 }
 
-export default HomePage;
+export default Products;
